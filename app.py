@@ -32,6 +32,7 @@ with st.sidebar:
     
     api_key_label = "Groq API Key"
     default_model = "llama-3.3-70b-versatile"
+    base_url = "https://api.groq.com/openai/v1"
 
     api_key = st.text_input(api_key_label, type="password")
     
